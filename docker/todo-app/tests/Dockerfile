@@ -3,5 +3,4 @@ WORKDIR /docker/todo-app/tests
 ADD node_modules.tar.gz ./tests
 COPY . .
 EXPOSE 3000
-CMD ['npm', 'test']
-# https://docs.docker.com/engine/reference/builder/
+CMD ["npm", "test"]
